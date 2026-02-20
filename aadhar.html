@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aadhaar Card</title>
+
+<style>
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.aadhaar-card {
+    width: 420px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.header {
+    text-align: center;
+    padding: 6px;
+    border-bottom: 1px solid #000;
+}
+
+.header img {
+    width: 40px;
+}
+
+.header h4 {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.card-body {
+    display: flex;
+    padding: 10px;
+}
+
+.photo {
+    width: 90px;
+    height: 110px;
+    border: 1px solid #000;
+}
+
+.details {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.details p {
+    margin: 4px 0;
+}
+
+.qr {
+    margin-left: auto;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000;
+}
+
+.aadhaar-number {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 6px;
+    border-top: 1px solid #000;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 6px;
+    border-top: 1px solid #000;
+}
+
+.footer span {
+    color: red;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="aadhaar-card">
+
+    <div class="header">
+        <h4>Government of India</h4>
+        <h4>Unique Identification Authority of India</h4>
+    </div>
+
+    <div class="card-body">
+        <img src="https://via.placeholder.com/90x110" class="photo" alt="Photo">
+
+        <div class="details">
+            <p><strong>Name:</strong> Ramesh Kumar</p>
+            <p><strong>DOB:</strong> 10/04/2000</p>
+            <p><strong>Gender:</strong> Male</p>
+        </div>
+
+        <img src="https://via.placeholder.com/90" class="qr" alt="QR Code">
+    </div>
+
+    <div class="aadhaar-number">
+        4835&nbsp;8622&nbsp;6030
+    </div>
+
+    <div class="footer">
+        <span>आधार – आम आदमी का अधिकार</span><br>
+        This card is proof of identity, not citizenship
+    </div>
+
+</div>
+
+</body>
+</html>
+
